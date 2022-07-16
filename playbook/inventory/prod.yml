@@ -1,6 +1,14 @@
 ---
 elasticsearch:
   hosts:
-    localhost:
+    51.250.13.59:
       ansible_connection: ssh
-      ansible_user: root
+      ansible_user: ubuntu
+
+kibana:
+  hosts:
+    51.250.87.249:
+      ansible_connection: ssh
+      ansible_user: ubuntu
+
+
